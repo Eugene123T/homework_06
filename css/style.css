@@ -1,0 +1,16 @@
+.menu {
+    font-size: 0; 
+    font-family: 'Lato', sans-serif;
+}
+
+.menu__item {
+    background-color: #fd2010;
+    padding: 0.7%;
+    font-size: 1rem;
+    display: inline-block; 
+    position: relative; 
+}
+
+.menu__item:hover .menu-dropdown {
+    display: block;
+}
