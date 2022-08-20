@@ -10,7 +10,7 @@
     padding: 0.7%;
     font-size: 1rem;
     display: inline-block; /* Выстраивание элементов в ряд */
-    position: relative; /* Позиционирование элементов sudmenu относительно li  */
+    position: relative; /* Позиционирование элементов Submenu относительно li  */
 }
 
 /* 030 */
@@ -22,9 +22,9 @@
 /* 010 */
 .menu-dropdown {
     display: none;
-    position: absolute; /* Позиционирование элементов sudmenu относительно li  */
+    position: absolute; /* Позиционирование элементов Submenu относительно li  */
     background-color: #fd2010;
-    /* Выравнмивание элементов sudmenu */
+    /* Выравнмивание элементов Submenu */
     min-width: 175%;
     top: 100%;
     left: 0;
@@ -51,7 +51,7 @@ a {
 }
 
 /* 020 */
-/* Изменение цвета элемента sudmenu при наведении */
+/* Изменение цвета элемента Submenu при наведении */
 .menu-dropdown__item:hover {
     background-color: rgba(0, 0, 0, 0.205); 
 }
