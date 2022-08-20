@@ -1,46 +1,62 @@
+/* 010 */
 .menu {
-    font-size: 0; 
+    font-size: 0; /* Убирает пробелы между элементами li */
     font-family: 'Lato', sans-serif;
 }
 
+/* 010 */
 .menu__item {
     background-color: #fd2010;
     padding: 0.7%;
     font-size: 1rem;
-    display: inline-block; 
-    position: relative; 
+    display: inline-block; /* Выстраивание элементов в ряд */
+    position: relative; /* Позиционирование элементов sudmenu относительно li  */
 }
 
+/* 030 */
+/* Отображение выпадающего меню */
 .menu__item:hover .menu-dropdown {
     display: block;
 }
 
+/* 010 */
 .menu-dropdown {
     display: none;
-    position: absolute; 
+    position: absolute; /* Позиционирование элементов sudmenu относительно li  */
     background-color: #fd2010;
+    /* Выравнмивание элементов sudmenu */
     min-width: 175%;
     top: 100%;
     left: 0;
 }
 
+/* 011 */
+/* Отображение ссылок выпадающего меню */
 .menu-dropdown a {
     display: block;
     padding: 1rem;
 }
 
+/* 001 */
+/* Убирает подчеркивания ссылок */
 a {
     text-decoration: none;
 }
 
+/* 011 */
+/* Задает цвет ссылкам */
 a:visited {
     color: white;
 }
 
+/* 020 */
+/* Изменение цвета элемента menu при наведении */
 .menu__item:hover {
     background-color: black; 
 }
 
+/* 020 */
+/* Изменение цвета элемента sudmenu при наведении */
 .menu-dropdown__item:hover {
     background-color: rgba(0, 0, 0, 0.205); 
 }
