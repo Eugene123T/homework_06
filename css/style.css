@@ -14,3 +14,33 @@
 .menu__item:hover .menu-dropdown {
     display: block;
 }
+
+.menu-dropdown {
+    display: none;
+    position: absolute; 
+    background-color: #fd2010;
+    min-width: 175%;
+    top: 100%;
+    left: 0;
+}
+
+.menu-dropdown a {
+    display: block;
+    padding: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+.menu__item:hover {
+    background-color: black; 
+}
+
+.menu-dropdown__item:hover {
+    background-color: rgba(0, 0, 0, 0.205); 
+}
